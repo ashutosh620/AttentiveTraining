@@ -1,0 +1,14 @@
+SRATE = 16000
+MIN_LOUDNESS = -30
+MAX_LOUDNESS = -25
+NOISE_MIN_LOUDNESS = -40
+NOISE_MAX_LOUDNESS = -35
+FRAME_SIZE = 32  # (ms) for speech onset detection
+FRAME_SHIFT = 8  # (ms) for speech onset detection
+TOP_DB = 25  # for speech onset detection
+MAX_WAV_AMP = 0.99
+EPS = 1e-10
+FEAT_SCALE = 25  # for better training
+MIN_GAP = 0.25  # in seconds
+MAX_GAP = 0.5  # in seconds
+OVERLAP_PROB = 0.75
